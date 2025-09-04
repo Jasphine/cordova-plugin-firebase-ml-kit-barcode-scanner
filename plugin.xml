@@ -120,8 +120,7 @@
 
         <framework src="androidx.appcompat:appcompat:1.1.0" />
         <framework src="com.google.android.material:material:1.0.0" />
-        <framework src="com.google.firebase:firebase-ml-vision:24.0.3" />
-        <framework src="com.google.firebase:firebase-ml-vision-barcode-model:16.1.1" />
+        <framework src="com.google.mlkit:barcode-scanning:17.3.0" />
             
         <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference"/>
     </platform>
