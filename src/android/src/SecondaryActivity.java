@@ -16,7 +16,11 @@ import android.widget.TextView;
 // |  Google Imports
 // ----------------------------------------------------------------------------
 import com.google.android.gms.common.api.CommonStatusCodes;
-import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode;
+import com.google.mlkit.vision.barcode.BarcodeScanning;
+import com.google.mlkit.vision.barcode.BarcodeScanner;
+import com.google.mlkit.vision.barcode.BarcodeScannerOptions;
+import com.google.mlkit.vision.barcode.common.Barcode;
+import com.google.mlkit.vision.common.InputImage;
 
 public class SecondaryActivity extends Activity implements View.OnClickListener {
   // ----------------------------------------------------------------------------
